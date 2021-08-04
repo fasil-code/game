@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.sec{
+    position:absolute;
+    top:200px;
+    left:300px;
+    display:flex;
+
+}
+h2{
+    text-align:center;   
+}
+input{
+ 
+    width:200px;
+    height:200px;
+    margin:20px;
+    
+}
+h1{
+    text-align:center;
+}
+@media (max-width:900px){
+    .sec{
+    flex-direction:column ;
+    top:20%;
+    left:2%;
+
+}
+h1{
+    text-align: start;
+    font-size:18px;
+
+}
+h2{
+    
+    text-align: start;
+    font-size:18px;
+
+}
+input{
+ 
+ width:50px;
+ height:50px;
+ margin:5px;
+ 
+}
+}
+
+
+</style>
+
+<body>
+    <h2>Pick your  lucky box </h2>
+    <h1>Play the game</h1>
+    <div class="sec">
+        
+<input id="fir" type="button" value="1">
+        
+            <input  id="sec"type="button" value="2">
+                    
+                        <input id="thi" type="button" value="3">
+                            
+
+    </div>
+    <script src="myscripts.js"></script>
+</body>
+</html>
